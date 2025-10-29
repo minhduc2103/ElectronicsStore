@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.DEFAULT"/>
+            <data android:scheme="https" />
+        </intent>
+    </queries>
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="31">
+        <activity
+            android:exported="true"
+            android:name="com.example.electronicsstore.activity.SplashActivity">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:exported="false"
+            android:name="com.example.electronicsstore.activity.MainActivity" />
+
+        <activity
+            android:exported="false"
+            android:name="com.example.electronicsstore.activity.LoginActivity" />
+
+        <activity
+            android:exported="false"
+            android:name="com.pro.electronic.activity.RegisterActivity" />
+
+        <activity
+            android:exported="false"
+            android:name="com.example.electronicsstore.activity.ProductDetailActivity" />
+
+        <activity
+            android:exported="false"
+            android:name="com.example.electronicsstore.activity.VoucherActivity" />
+
+        <activity
+            android:exported="false"
+            android:name="com.example.electronicsstore.activity.RatingReviewActivity" />
+
+        <activity
+            android:exported="false"
+            android:name="com.example.electronicsstore.activity.PaymentMethodActivity" />
+
+        <activity
+            android:exported="false"
+            android:name="com.example.electronicsstore.activity.CartActivity" />
+
+        <activity
+            android:exported="false"
+            android:name="com.example.electronicsstore.activity.PaymentActivity" />
+
+        <activity
+            android:exported="false"
+            android:name="com.example.electronicsstore.activity.ReceiptOrderActivity" />
+
+        <activity
+            android:exported="false"
+            android:name="com.example.electronicsstore.activity.TrackingOrderActivity" />
+
+        <activity
+            android:exported="false"
+            android:name="com.example.electronicsstore.activity.ChangePasswordActivity" />
+
+        <activity
+            android:exported="false"
+            android:name="com.example.electronicsstore.activity.FeedbackActivity" />
+
+        <activity
+            android:exported="false"
+            android:name="com.example.electronicsstore.activity.ForgotPasswordActivity" />
+
+        <activity
+            android:exported="false"
+            android:name="com.example.electronicsstore.activity.AddressActivity" />
+    </application>
+
+</manifest>

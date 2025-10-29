@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1079622258195",
+    "firebase_url": "https://electronicsstore-c139c-default-rtdb.firebaseio.com",
+    "project_id": "electronicsstore-c139c",
+    "storage_bucket": "electronicsstore-c139c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079622258195:android:1985285d690592a46df9e6",
+        "android_client_info": {
+          "package_name": "com.example.electronicsstore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3aVHhdnmY0oRWhYWAk8m7ZmMeAyN_0_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
