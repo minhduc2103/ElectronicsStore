@@ -1,21 +1,20 @@
 # Electronics Store (Android Kotlin Project)
 
 ## Description
-là ứng dụng thương mại điện tử về các sản phẩm điện - điện tử.  
-Ứng dụng cho phép người dùng **đăng nhập, tìm kiếm, xem chi tiết sản phẩm, thêm vào giỏ hàng, đặt hàng và theo dõi đơn hàng** theo thời gian thực.  
-Toàn bộ dữ liệu được đồng bộ **Realtime với Firebase**.
+This is an **e-commerce application** for **electrical and electronic products**.  
+The app allows users to **log in, search, view product details, add items to the cart, place orders, and track their orders in real time**.  
+All data is synchronized **in real time with Firebase**, ensuring a smooth and responsive user experience.
 
 ## Tech Stack & Architecture
 - **Project Architecture:** `MVC (Model - View - Controller)`
 - **Realtime Database:** Firebase Realtime Database
 - **Authentication:** Firebase Authentication (Sign In, Sign Up, Sign Out, Forgot Password, Change Password, Show User Profile)
-- **Local Storage:** Room Database (giỏ hàng offline)
-- **User Session:** SharedPreferences (lưu trạng thái đăng nhập)
+- **Local Storage:** Room Database (cart offline)
+- **User Session:** SharedPreferences (Save login state)
 - **Event Handling:** EventBus Library
 - **UI Components:**
     - `TabLayout + ViewPager2 + Fragment`
     - `BottomNavigationView + ViewPager2 + Fragment`
     - `ViewPager2 + CircleIndicator3` (auto slide banner)
-- **Image Loading:** Glide Library (load ảnh từ URL)
-- **RecyclerView Handling:** Tối ưu hiển thị khi nằm trong NestedScrollView
+- **Image Loading:** Glide Library (load image from URL)
 
