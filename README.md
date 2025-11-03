@@ -18,3 +18,9 @@ All data is synchronized **in real time with Firebase**, ensuring a smooth and r
     - `ViewPager2 + CircleIndicator3` (auto slide banner)
 - **Image Loading:** Glide Library (load image from URL)
 
+<p align="center">
+  <img src="images/home_screen.png" alt="Home Screen" width="250"/>
+  <img src="images/product_detail.png" alt="Product Detail" width="250"/>
+  <img src="images/cart.png" alt="Cart Screen" width="250"/>
+</p>
+
